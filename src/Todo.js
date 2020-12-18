@@ -17,7 +17,8 @@ export default function Todo(props) {
                     ...item, completed: !props.itemCompleted
                 };
             }
-                return item;
+
+            return item;
             
         }));
      
